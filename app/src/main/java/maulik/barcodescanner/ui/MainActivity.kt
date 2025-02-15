@@ -28,10 +28,10 @@ class MainActivity : AppCompatActivity() {
             selectedScanningSDK = BarcodeScanningActivity.ScannerSDK.MLKIT
             startScanning()
         }
-        binding.cardZxing.setOnClickListener {
+        /*binding.cardZxing.setOnClickListener {
             selectedScanningSDK = BarcodeScanningActivity.ScannerSDK.ZXING
             startScanning()
-        }
+        }*/
     }
 
     private fun startScanning() {
